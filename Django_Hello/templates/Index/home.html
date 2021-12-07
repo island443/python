@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Hello World</p>
+<div>
+{% for msg in msglist %}
+<p>————————————————————————————————</p>
+<p>用户id：{{msg.emp_id}}</p>
+<p>用户名字：{{msg.emp_name}}</p>
+<p>用户性别：{{msg.gender}}</p>
+<p>用户邮箱：{{msg.email}}</p>
+
+{% endfor %}
+</div>
+
+
+</body>
+</html>
